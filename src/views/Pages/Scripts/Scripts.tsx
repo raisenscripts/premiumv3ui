@@ -190,7 +190,7 @@ function Scripts() {
 				position={scale(1, 1)}
 			>
 				<Content
-					header="EvoV2"
+					header="sigma"
 					body="Reliable cheats for\nRoblox's top shooter\ngames, reimagined."
 					footer="projectevo.xyz"
 				/>
