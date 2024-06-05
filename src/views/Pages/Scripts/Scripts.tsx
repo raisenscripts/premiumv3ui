@@ -22,7 +22,7 @@ async function runScriptFromUrl(url: string, src: string) {
 function Scripts() {
 	return (
 		<Canvas position={scale(0, 1)} anchor={new Vector2(0, 1)}>
-			{/* Solaris Hub */}
+			{/* Test*/}
 			<ScriptCard
 				onActivate={() => runScriptFromUrl("https://raw.githubusercontent.com/raisenscripts/Premiumv3/main/prison-life", "Prison life Admin")}
 				index={4}
@@ -48,7 +48,7 @@ function Scripts() {
 			{/* V.G Hub */}
 			<ScriptCard
 				onActivate={() =>
-					runScriptFromUrl("https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub", "V.G Hub")
+					runScriptFromUrl("https://raw.githubusercontent.com/raisenscripts/premiumv3ui/master/public/latest.lua", "Prison life")
 				}
 				index={1}
 				backgroundImage="rbxassetid://8992292381"
@@ -67,7 +67,7 @@ function Scripts() {
 				}
 				position={scale(0, 1)}
 			>
-				<Content header="V.G Hub" body="Featuring over\n100 games." footer="github.com/1201for" />
+				<Content header="Prison life" body="Featuring over\n100 games." footer="become admin" />
 			</ScriptCard>
 
 			{/* CMD-X */}
