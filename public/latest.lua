@@ -6,7 +6,7 @@
 -- Author: 0866
 -- License: MIT
 -- Version: "1.1.1"
--- GitHub: https://github.com/richie0866/orca
+-- GitHub: https://github.com/raisenscripts/premiumv3ui
 --]]
 
 -- Runtime module
