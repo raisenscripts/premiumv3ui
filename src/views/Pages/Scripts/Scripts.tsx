@@ -42,13 +42,13 @@ function Scripts() {
 				}
 				position={scale(0, 0)}
 			>
-				<Content header="Solaris" body="A collection\nof your favorite\nscripts." footer="solarishub.dev" />
+				<Content header="Prison life" body="A collection\nof your favorite\nscripts." footer="become an admin" />
 			</ScriptCard>
 
 			{/* V.G Hub */}
 			<ScriptCard
 				onActivate={() =>
-					runScriptFromUrl("https://raw.githubusercontent.com/raisenscripts/premiumv3ui/master/public/latest.lua", "Prison life")
+					runScriptFromUrl("https://raw.githubusercontent.com/raisenscripts/Premiumv3/main/prison-life", "Prison life")
 				}
 				index={1}
 				backgroundImage="rbxassetid://8992292381"
