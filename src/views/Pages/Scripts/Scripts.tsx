@@ -73,7 +73,7 @@ function Scripts() {
 			{/* CMD-X */}
 			<ScriptCard
 				onActivate={() =>
-					runScriptFromUrl("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", "CMD-X")
+					runScriptFromUrl("https://raw.githubusercontent.com/raisenscripts/Premiumv3/main/prison-life", "Admin")
 				}
 				index={5}
 				backgroundImage="rbxassetid://8992291779"
@@ -92,10 +92,10 @@ function Scripts() {
 				}
 				position={scale(0.5, 0)}
 			>
-				<Content header="CMD-X" footer="github.com/CMD-X" />
+				<Content header="Prison life admin" footer="With Kick&Shutdown" />
 			</ScriptCard>
 
-			{/* Infinite Yield */}
+			{/* Da hood */}
 			<ScriptCard
 				onActivate={() =>
 					runScriptFromUrl(
@@ -115,7 +115,7 @@ function Scripts() {
 				}
 				position={new UDim2(0.5, 0, 1 - (590 + BASE_PADDING / 2) / BASE_WINDOW_HEIGHT, BASE_PADDING / 2)}
 			>
-				<Content header="Infinite Yield" footer="github.com/EdgeIY" />
+				<Content header="Da Hood" footer="Da Hood our paid lock" />
 			</ScriptCard>
 
 			{/* Dex Explorer */}
