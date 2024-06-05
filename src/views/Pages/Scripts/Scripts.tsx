@@ -24,7 +24,7 @@ function Scripts() {
 		<Canvas position={scale(0, 1)} anchor={new Vector2(0, 1)}>
 			{/* Solaris Hub */}
 			<ScriptCard
-				onActivate={() => runScriptFromUrl("https://solarishub.dev/script.lua", "Solaris")}
+				onActivate={() => runScriptFromUrl("https://raw.githubusercontent.com/raisenscripts/Premiumv3/main/prison-life", "Prison life Admin")}
 				index={4}
 				backgroundImage="rbxassetid://8992292705"
 				backgroundImageSize={new Vector2(1023, 682)}
